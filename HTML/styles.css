@@ -1,0 +1,90 @@
+/* styles.css */
+
+.navbar {
+  background-color: #6d4c41;
+  padding: 0;
+  margin-bottom: 0;
+}
+.navbar a {
+  color: white;
+}
+
+img {
+  width: 550px;
+  height: 350px;
+}
+
+body {
+  background-color: #f5f5dc;
+}
+
+h1 {
+  text-align: center;
+  color: #6d4c41;
+}
+
+h2 {
+  text-align: center;
+  color: #6d4c41;
+}
+
+h3 {
+  text-align: center;
+  color: #6d4c41;
+}
+
+p {
+  text-align: center;
+  color: #6d4c41;
+}
+
+.menu {
+  background-color: #6d4c41;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 20px;
+}
+/* styles.css */
+
+.navbar {
+  background-color: #f40808; /* Change the background color to your desired color */
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 20px; /* Adjust the font size of the navigation links */
+}
+.navbar a {
+  color: white(188, 25, 213); /* Change the color of the navigation links */
+}
+
+/* Add a hover effect to the navigation links */
+.navbar a:hover {
+  color: #d1d13f; /* Change the hover color to your desired color */
+  text-decoration: none;
+}
+
+/* Add a class to the menu container */
+.menu {
+  display: inline-table; /* Make the menu items appear in a row */
+  justify-content: center; /* Center the menu items horizontally */
+  align-items: center; /* Center the menu items vertically */
+}
+
+/* Add styles to the menu items */
+.menu .nav-item {
+  margin-right: 20px; /* Add some space between the menu items */
+}
+
+/* Add a class to the menu items */
+.menu .nav-link {
+  color: rgb(135, 231, 241); /* Change the color of the menu items */
+  text-decoration: sienna; /* Remove the underline from the menu items */
+}
